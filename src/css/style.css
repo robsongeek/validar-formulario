@@ -1,0 +1,116 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
+/* font-family: 'Roboto', sans-serif; */
+.conteudo {
+    display: flex;
+    background-image: url(../image/bg-repeat.jpg);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo .informacao {
+    width: 300px;
+    margin-right: 73px;
+}
+
+.conteudo .informacao .titulo {
+    font-weight: 900;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.conteudo .informacao .texto {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.formulario {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 378px;
+    padding: 20px;
+}
+
+.conteudo .formulario .input {
+    width: 298.01px;
+    height: 35.11px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.conteudo .formulario .obrigatorio {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.conteudo .formulario .formulario-campo .mensagem-erro {
+    font-weight: 400;
+    font-size: 8px;
+    color: #F52E2E;
+}
+
+.conteudo .formulario .textArea {
+    width: 298.01px;
+    height: 100px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.conteudo .formulario .botao {
+    height: 41px;
+    background-color: #3CCC87;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    border: none;
+}
+
+.conteudo .formulario .formulario-campo .span{
+    height: 12px;
+}
+
+/* Quando fazer a validação */
+.invisivel {
+    display: none;
+}
+
+span.mensagem-erro.active{
+    display: block;
+    color: #F52E2E;
+}
+
+@media (max-width: 700px) {
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../image/bg-repeat.jpg);
+        min-height: 100vh;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .conteudo .informacao {
+        width: 300px;
+        /* margin: 25px; */
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+
+    .conteudo .informacao .titulo{
+        margin-bottom: 10px;
+        /* width: 300px; */
+        /* margin: 25px; */
+    }
+}

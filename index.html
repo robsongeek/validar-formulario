@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <!-- <script src="./src/js/index.js" defer></script> -->
+    <title>Desafio 3 Validação de formulário</title>
+</head>
+
+<body>
+    <main>
+        <div class="conteudo">
+            <div class="informacao">
+                <h1 class="titulo">FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+                <p class="texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                    contato em menos de 24h.</p>
+            </div>
+            <form class="formulario">
+                <div class="formulario-campo">
+                    <input type="text" class="input nome" placeholder="Nome completo *" required />
+                    <div class="span">
+                        <span class="mensagem-erro invisivel">campo obrigatório</span>
+                    </div>
+                </div>
+                <div class="formulario-campo">
+                    <input type="email" class="input email" placeholder="Email *" name="email" required>
+                    <div class="span">
+                        <span class="mensagem-erro invisivel">campo obrigatório</span>
+                    </div>
+                </div>
+                <div class="formulario-campo">
+                    <input type="text" class="input telefone" placeholder="Telefone *" required>
+                    <div class="span">
+                        <span class="mensagem-erro invisivel">campo obrigatório</span>
+                    </div>
+                </div>
+                <div class="formulario-campo">
+                    <textarea class="input textArea" name="" id="" cols="30" rows="10" placeholder="Mensagem *"
+                        required></textarea>
+                    <span class="mensagem-erro invisivel">campo obrigatório</span>
+                </div>
+                <p class="obrigatorio">*campos obrigatórios</p>
+                <button class="botao" type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

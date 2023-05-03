@@ -1,0 +1,16 @@
+/* Para facilitar ao usar a unidade de medida rem 1.6rem = 16px */
+/* ATENÇÃO: é o sinal de porcentagem */
+html{
+    /* font-size: 62.5%; */
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* Boa dica para poder usar margin e o padding */
+    box-sizing: border-box;
+}
